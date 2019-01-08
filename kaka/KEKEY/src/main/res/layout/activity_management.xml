@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_management"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#ffffff"
+tools:context="com.example.maple.kaka.ManagementActivity">
+
+    <LinearLayout
+        android:id="@+id/list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        >
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:divider="@color/common_google_signin_btn_text_light_disabled"
+            android:dividerHeight="2dp"></ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/serch_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginBottom="2dp"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/edt_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1.00"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="맛집, 배달 검색"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="20dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.07"
+            android:adjustViewBounds="true"
+            android:background="@drawable/edt_img"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:scaleType="fitXY"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorPrimaryDark"
+        app:itemIconTint="@drawable/nav_item_color_state"
+        app:menu="@menu/bottom_navigation_main"
+        >
+    </android.support.design.widget.BottomNavigationView>
+
+</RelativeLayout>

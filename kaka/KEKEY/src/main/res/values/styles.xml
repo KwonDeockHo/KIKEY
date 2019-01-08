@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.AppCompat.Light.NoActionBar">    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="Theme.AppCompat.Light">    </style>
+
+    <style name="AppTheme.CustomActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="elevation">0dp</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="actionBarSize">0dp</item>
+        <item name="android:actionBarSize">0dp</item>
+
+    </style>
+    <style name="NavigationViewOwnStyle">
+        <item name="android:listPreferredItemHeightSmall">100dp</item><!--item height-->
+        <item name="android:textSize">20sp</item> <!--item text size-->
+    </style>
+
+    <style name="Adv_Text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textColor">#FF2222</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>

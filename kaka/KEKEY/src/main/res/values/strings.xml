@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">KIKEY</string>
+
+    <string name="text">
+        <itme>"가"</itme>
+        <itme>"나"</itme>
+        <itme>"다"</itme>
+        <itme>"라"</itme>
+        <itme>"마"</itme>
+    </string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="vendor_phone">사업자명</string>
+    <string name="vendor_info">사업자명</string>
+    <string name="vendor_number">사업자번호</string>
+
+
+    <string name="warning">경고</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="confirm">확인</string>
+
+    <string name="login">로그인</string>
+    <string name="logout">로그아웃</string>
+    <string name="email">이메일</string>
+    <string name="member_user_join">일반 회원 가입</string>
+    <string name="member_vendor_join">업체 회원 가입</string>
+    <string name="modify_info">정보수정</string>
+    <string name="Identity">아이디</string>
+    <string name="birthday">생년월일</string>
+
+
+    <string name="text_ven_phone">전화번호(- 제외한 숫자만 입력)</string>
+    <string name="text_ven_email">아이디 (e-mail)</string>
+    <string name="text_ven_number">사업자번호</string>
+    <string name="text_ven_corname">상   호</string>
+    <string name="text_ven_name">이   름</string>
+    <string name="text_ven_pass">비밀번호</string>
+    <string name="text_ven_repass">비밀번호확인</string>
+    <string name="text_ven_birth">생년월일 ex.19850525</string>
+    <string name="text_ven_man">남자</string>
+    <string name="text_ven_woman">여자</string>
+    <string name="text_ven_address">주 소  대구시 달서구 감상동 123-5</string>
+    <string name="text_ven_address_detail">주 소  대구시 달서구 감상동 123-5</string>
+
+    <string name="text_ven_follow">소개자 휴대번호 or 아이디</string>
+
+
+    <string name="vendor_name">사업자이름</string>
+    <string name="gender">성별</string>
+
+    <string name="setting_01">위치 이동</string>
+    <string name="setting_02">포인트 입출내역</string>
+    <string name="setting_03">포인트 충전</string>
+    <string name="setting_04">QR코드</string>
+    <string name="setting_05">검색 광고 등록/해제</string>
+    <string name="setting_06">페이지 광고 등록/해제</string>
+    <string name="setting_07">EVENT 광고 등록/해제</string>
+    <string name="setting_08">화면</string>
+    <string name="setting_09">소리</string>
+    <string name="setting_10">공지사항</string>
+    <string name="setting_11">개인정보변경</string>
+    <string name="setting_12">버전정보</string>
+    <string name="setting_13">고객센타</string>
+    <string name="setting_14">로그아웃</string>
+
+    <string name="point_day">년, 월, 일</string>
+    <string name="point_ad">사용처 광고</string>
+    <string name="point_point">포인트</string>
+
+    <string name="bank_name">포인트</string>
+    <string name="bank_number">포인트</string>
+    <string name="charge_point">포인트</string>
+    <string name="charge_text">10000포인트는 10000원입니다.</string>
+    <string name="Event_source">할인, 이벤트 내용을 입력하세요.</string>
+
+    <string name="bottom_title"></string>
+</resources>
